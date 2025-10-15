@@ -76,6 +76,8 @@ download checkpoints refer to [LlamaGen](https://github.com/FoundationVision/Lla
     torchrun --nnodes=1 --nproc_per_node=8 --node_rank=0 --master_port=29500 sample_t2i_coco.py --save_root your-save-root
    ```
 
+Set ```--enable_entropy_filtering``` to True during inference for entropy-aware sampling.
+
 ## Acknowledgements
 We thank [LlamaGen](https://github.com/FoundationVision/LlamaGen), [Lumina-mGPT](https://github.com/Alpha-VLLM/Lumina-mGPT), [Meissonic](https://github.com/viiika/Meissonic) & [STAR](https://github.com/krennic999/STAR) for their great work and trained model, and [SJD](https://github.com/tyshiwo1/Accelerating-T2I-AR-with-SJD/) for the algorithm.
 
