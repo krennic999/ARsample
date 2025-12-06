@@ -1,0 +1,7 @@
+{
+  "bos_token": "<s>",
+  "eos_token": "</s>",
+  "pad_token": "<pad>",
+  "sep_token": "<reserved08706>",
+  "unk_token": "<unk>"
+}
